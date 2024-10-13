@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="mx-auto ">
+      <input type="checkbox" id="check" class="hidden peer" />
+      <div
+        class="menu_navbar text-white  p-5 h-[100vh] fixed w-[100vw] transform -translate-x-[150%] transition-transform duration-300 peer-checked:translate-x-0"
+      >
+        <div class="flex justify-between items-center">
+          <h1>Logo</h1>
+          <label for="check">
+            <i class="fa-solid fa-bars fa-2xl"></i>
+          </label>
+        </div>
+        <ul class="flex flex-col items-center gap-5">
+          <li><a href="">Home</a></li>
+          <li><a href="">Contact</a></li>
+          <li><a href="">Pojects</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">FAQ</a></li>
+        </ul>
+      </div>
+      <nav class="bg-orange-500 flex justify-between p-5 items-center">
+        <h1 class="text-white ml-[60px]">Logo</h1>
+        <div class="md:w-[50%] justify-between">
+          <ul class="w-[100%] justify-between text-white hidden md:flex">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Pojects</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+
+          <label for="check md:hidden">
+            <i class="fa-solid fa-bars fa-2xl md:hidden"></i>
+          </label>
+        </div>
+      </nav>
+      <aside
+        class="bg-orange-500 fixed top-0 pb-[50px] flex flex-col gap-[35px] rounded-r-lg justify-center items-center"
+      >
+        <h2 class="m-5 text-white">logo</h2>
+        <div class="w-[100%] bg-gray-800"><hr /></div>
+        <i class="fa-home fa-solid bg-white p-3 rounded-full"></i>
+        <i class="fa-user fa-solid bg-white p-3 rounded-full"></i>
+        <i class="fa-user fa-solid bg-white p-3 rounded-full"></i>
+        <i class="fa-user fa-solid bg-white p-3 rounded-full"></i>
+        <i class="fa-user fa-solid bg-white p-3 rounded-full"></i>
+        <div class="flex gap-1">
+          <img src="./fleg.png" alt="" />
+          <img src="./fleg.png" alt="" />
+        </div>
+      </aside>
+      <main class="flex justify-center">
+        <div class="flex flex-col w-[50%]">
+          <h2 class="mb-5">Hi</h2>
+          <h1 class="text-[45px] mb-5 font-bold">
+            I’m Mohammad Reza. a Frontend developer.
+          </h1>
+          <p class="w-[80%] mb-5 text-xl">
+            Frontend developer based in tehran, Iran. I am coding with a clean
+            and beautiful problem solving in mind.
+          </p>
+          <div class="mb-[50px]">
+            <a href="" class="text-[rgba(34,34,34,0.5)] mr-5">Follow me</a>
+            <i class="fa-brands text-2xl fa-facebook bg-blue-300 text-white px-2 py-1 rounded-full"></i>
+            <i class="fa-brands text-2xl fa-twitter bg-pink-500 text-white py-1 px-2 rounded-full"></i>
+            <i class="fa-brands text-2xl fa-instagram bg-indigo-500 px-2 py-1 rounded-full text-white"></i>
+            <i class="fa-brands text-2xl fa-telegram bg-orange-300 px-2 py-1 rounded-full text-white"></i>
+          </div>
+          <div>
+            <button
+              class="bg-white-200 hover:bg-rose-500 border-2 border-orange-500 p-3 rounded-md"
+            >
+              Send Request
+            </button>
+            <button
+              class="bg-white-200 hover:bg-rose-500 border-2 border-orange-500 p-3 rounded-md"
+            >
+              Download CV
+            </button>
+          </div>
+        </div>
+        <div class="relative hidden md:block">
+          <img
+            class="absolute right-0 z-[-9]"
+            src="./BulletPoints.png"
+            alt=""
+          />
+          <img
+            class="absolute left-0 bottom-0 z-[-1]"
+            src="./BulletPoints.png"
+            alt=""
+          />
+          <img src="./mainimg.png" alt="" />
+        </div>
+      </main>
+      <section
+        class="bg-orange-500 w-4/6 mt-32 rounded-xl flex flex-wrap mx-auto md:bg-orange-500 w-[70%] mt-32 rounded-xl flex mx-auto"
+      >
+        <img src="./Transparent.svg" alt="" />
+        <div class="mx-auto md:flex flex-wrap justify-between w-6/12">
+          <div class="flex-1 w-64 pt-6">
+            <h2 class="font-bold text-7xl text-white">120+</h2>
+            <p class="text-white text-2xl pt-3">Completed Projects</p>
+          </div>
+          <div class="flex-1 w-64 pt-8">
+            <img src="./star.png" alt="">
+            <p class="text-white text-2xl pt-12">Positive Review’s</p>
+          </div>
+          <div class="w-full md:w-98">
+            <h2 class="font-bold text-5xl text-white pt-6">Glad to Help You!</h2>
+            <p class="text-white pt-6  text-2xl leading-loose pb-6">As a web developer, I'm very keen on learning new and pioneering technologies, programming languages, and development techniques.</p>
+          </div>
+        </div>
+      </section>
+      <section class="w-4/6 mx-auto">
+        <h2 class="m-24 font-bold text-4xl text-center">Why Hire Me?</h2>
+        <div class="flex flex-wrap md:flex justify-between">
+          <div class="item w-52 p-4 text-center flex  gap-5 flex-col ">
+            <img  class="mx-auto bg-blue-100 rounded-full p-4" src="./пroup.png" alt="" />
+            <h3 class="font-bold">Communicative</h3>
+            <p>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint.
+            </p>
+          </div>
+          <div class="item w-52 p-4 text-center flex  gap-5 flex-col ">
+            <img class="mx-auto bg-blue-100 rounded-full p-4" src="./пroup.png" alt="" />
+            <h3 class="font-bold">Communicative</h3>
+            <p>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint.
+            </p>
+          </div>
+          <div class="item w-52 p-4 text-center flex  gap-5 flex-col ">
+            <img class="mx-auto bg-blue-100 rounded-full p-4" src="./пroup.png" alt="" />
+            <h3 class="font-bold">Communicative</h3>
+            <p>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint.
+            </p>
+          </div>
+          <div class="item w-52 p-4 text-center flex  gap-5 flex-col ">
+            <img class="mx-auto bg-blue-100 rounded-full p-4" src="./пroup.png" alt="" />
+            <h3 class="font-bold">Communicative</h3>
+            <p>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint.
+            </p>
+          </div>
+        </div>
+      </section>
+      <div class=" my-12 mx-auto w-4/6">
+        <div class="flex justify-between p-4">
+          <h2 class="font-bold text-5xl">
+            Portfolio
+          </h2>
+          <button>See More →</button>
+        </div>
+      </div>
+      <div class="my-12 flex flex-col gap-8 mt-10 mx-auto w-2/3">
+        <div class="flex flex-wrap mx-auto w-2/3 gap-5 md: flex-row gap-8 ">
+          <img src="./img2.png" alt="">
+          <img src="./image1.png" alt="">
+          <img src="./img2.png" alt="">
+        </div>
+        <div class="hidden md:flex gap-8">
+          <img src="./img2.png" alt="">
+          <img src="./image1.png" alt="">
+          <img src="./img2.png" alt="">
+        </div>
+      </div>
+      <div class="bg-orange-500 w-full  md:bg-orange-500 mx-auto w-full py-8 px-14">
+        <h2 class="text-white font-bold text-4xl text-center ">I’m Loved By Users And Clients Worldwide</h2>
+        <div class="flex-wrap md:flex justify-evenly mt-10 ">
+          <div class="w-9/12 mx-auto bg-white md:bg-white rounded-md p-8 w-[35%]">
+            <p class="w-full md:w-3/4 mb-10 text-left text-2xl">One of the best additions to our feedback loop has been the company-wide adoption of Fellow.</p>
+            <div class="flex-wrap md:flex items-center">
+              <img src="./profile.png" alt="">
+              <div class="ml-4">
+                <h3 class="font-bold text-xl">Ronald Richards</h3>
+                <p class="text-left text-gray-400" >UI/UX Designer</p>
+              </div>
+              <p class="ml-4 font-bold">4.5</p>
+              <img class="ml-4 h-6" src="./rating.png" alt="">
+            </div>
+          </div>
+          <div class="w-9/12 mx-auto bg-white mt-10 md:bg-white rounded-md p-8 w-[35%]">
+            <p class="w-full md:w-2/2 mb-10 text-left text-2xl">It provides an amazing platform for constant conversations and direct feedback between managers and direct reports.</p>
+            <div class="flex-wrap md:flex items-center">
+              <img src="./profile.png" alt="">
+              <div class="ml-4">
+                <h3 class="font-bold text-xl">Ronald Richards</h3>
+                <p class="text-left text-gray-400" >UI/UX Designer</p>
+              </div>
+              <p class="ml-4 font-bold">4.5</p>
+              <img class="ml-4 h-6" src="./rating.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="flex mt-10 justify-center gap-2">
+          <div class=" w-6 h-2 bg-gray-800 rounded-full"></div>
+          <div class="w-2 h-2 bg-white rounded-full"></div>
+          <div class="w-2 h-2 bg-white rounded-full"></div>
+          <div class="w-2 h-2 bg-white rounded-full"></div>
+        </div>
+      </div>
+      <div class="m-24">
+        <h2 class="font-bold text-5xl mb-10 text-center">Price plans</h2>
+        <div class="flex flex-wrap mx-auto justify-center gap-5 md:justify-araund mx-auto">
+          <div class="w-72 rounded-lg bg-slate-50">
+            <h3 class="rounded-t-lg bg-orange-300 text-white text-2xl p-3 text-center">Silver</h3>
+            <div class="px-8 py-8">
+
+              <h2 class="text-center  mb-6 font-bold text-2xl">$1.00 <span class="text-gray-400 text-sm">/Hour</span> </h2>
+              <i class="fa-solid fa-check text-orange-500"></i>
+              <span class="font-medium">UI Design</span>
+              <hr class="my-2">
+              <i class="fa-solid fa-check text-orange-500"></i>
+              <span class="font-medium">Web Development</span>
+              <hr class="my-2">
+              <i class="fa-solid fa-xmark text-gray-400"></i>
+              <span class="text-gray-400">Logo Design</span>
+              <hr class="my-2">
+              <i class="fa-solid fa-xmark text-gray-400"></i>
+              <span class="text-gray-400">Seo Optimization</span>
+              <hr class="my-2">
+              <i class="fa-solid fa-xmark text-gray-400"></i>
+              <span class="text-gray-400">WordPress Integration</span>
+              <hr class="my-2">
+              <i class="fa-solid fa-xmark text-gray-400"></i>
+              <span class="text-gray-400">5 Websites</span>
+              <hr class="my-2">
+              <i class="fa-solid fa-xmark text-gray-400"></i>
+              <span class="text-gray-400">Unlimited User</span>
+              <hr class="my-2">
+              <i class="fa-solid fa-xmark text-gray-400"></i>
+              <span class="text-gray-400">20 GB Bandwith</span> 
+            </div>
+          </div>
+          <div class="w-72 rounded-lg bg-slate-50">
+            <h3 class="rounded-t-lg bg-orange-300 text-white text-2xl p-3 text-center">Gold</h3>
+            <div class="px-8 py-8">
+
+              <h2 class="text-center  mb-6 font-bold text-2xl">$50.00 <span class="text-gray-400 text-sm">/Hour</span> </h2>
+              <i class="fa-solid fa-check text-orange-500"></i>
+              <span class="font-medium">UI Design</span>
+              <hr class="my-2">
+              <i class="fa-solid fa-check text-orange-500"></i>
+              <span class="font-medium">Web Development</span>
+              <hr class="my-2">
+              <i class="fa-solid fa-check text-orange-500"></i>
+              <span class="font-medium" >Logo Design</span>
+              <hr class="my-2">
+              <i class="fa-solid fa-check text-orange-500"></i>
+              <span class="font-medium" >Seo Optimization</span>
+              <hr class="my-2">
+              <i class="fa-solid fa-xmark text-gray-400"></i>
+              <span class="text-gray-400">WordPress Integration</span>
+              <hr class="my-2">
+              <i class="fa-solid fa-xmark text-gray-400"></i>
+              <span class="text-gray-400">5 Websites</span>
+              <hr class="my-2">
+              <i class="fa-solid fa-xmark text-gray-400"></i>
+              <span class="text-gray-400">Unlimited User</span>
+              <hr class="my-2">
+              <i class="fa-solid fa-xmark text-gray-400"></i>
+              <span class="text-gray-400">20 GB Bandwith</span> 
+            </div>
+          </div>
+          <div class="w-72 rounded-lg bg-slate-50">
+            <h3 class="rounded-t-lg bg-orange-300 text-white text-2xl p-3 text-center">Dimond</h3>
+            <div class="px-8 py-8">
+
+              <h2 class="text-center  mb-6 font-bold text-2xl">$80.00 <span class="text-gray-400 text-sm">/Hour</span> </h2>
+              <i class="fa-solid fa-check text-orange-500"></i>
+              <span class="font-medium">UI Design</span>
+              <hr class="my-2">
+              <i class="fa-solid fa-check text-orange-500"></i>
+              <span class="font-medium">Web Development</span>
+              <hr class="my-2">
+              <i class="fa-solid fa-check text-orange-500"></i>
+              <span class="font-medium">Logo Design</span>
+              <hr class="my-2">
+              <i class="fa-solid fa-check text-orange-500"></i>
+              <span class="font-medium">Seo Optimization</span>
+              <hr class="my-2">
+              <i class="fa-solid fa-check text-orange-500"></i>
+              <span class="font-medium">WordPress Integration</span>
+              <hr class="my-2">
+              <i class="fa-solid fa-check text-orange-500"></i>
+              <span class="font-medium">5 Websites</span>
+              <hr class="my-2">
+              <i class="fa-solid fa-check text-orange-500"></i>
+              <span class="font-medium">Unlimited User</span>
+              <hr class="my-2">
+              <i class="fa-solid fa-check text-orange-500"></i>
+              <span class="font-medium">20 GB Bandwith</span> 
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex-wrap bg-orange-500 gap-6 md:bg-orange-500 w-4/6 mx-auto rounded-lg flex justify-between items-center p-24 mb-10">
+        <h2 class="font-bold text-white text-5xl w-1/2">Interested working
+          with me?</h2>
+        <button class="bg-white px-24 py-5 rounded-lg text-2xl font-bold">Email Me</button>
+      </div>
+      <div class="w-4/6 mx-auto">
+        <div class="flex justify-between p-8">
+          <h2 class="font-bold text-6xl">Blog</h2>
+          <p class="text-gray-500">See More →</p>
+        </div>
+        <div class="overflow-hidden flex gap-6">
+          <div class="w-2/5 bg-slate-50 p-4 md:w-1/5 mx-auto">
+            <img src="./img.png" alt="">
+            <h3 class="font-bold">How to make web tempates</h3>
+            <p class="text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna </p>
+            <i class=" fa-solid fa-arrow-right bg-slate-200 rounded-full p-3 text-gray-500 cursor-pointer ml-24 md:ml-36"></i>
+          </div>
+          <div class="w-2/5 bg-slate-50 p-4 md:w-1/5 mx-auto">
+            <img src="./img.png" alt="">
+            <h3 class="font-bold">How to make web tempates</h3>
+            <p class="text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna </p>
+            <i class=" fa-solid fa-arrow-right bg-slate-200 rounded-full p-3 text-gray-500 cursor-pointer ml-24 md:ml-36"></i>
+          </div>
+          <div class="w-2/5 bg-slate-50 p-4 md:w-1/5 mx-auto">
+            <img src="./img.png" alt="">
+            <h3 class="font-bold">How to make web tempates</h3>
+            <p class="text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna </p>
+            <i class=" fa-solid fa-arrow-right bg-slate-200 rounded-full p-3 text-gray-500 cursor-pointer ml-24 md:ml-36"></i>
+          </div>
+          <div class="w-2/5 bg-slate-50 p-4 md:w-1/5 mx-auto">
+            <img src="./img.png" alt="">
+            <h3 class="font-bold">How to make web tempates</h3>
+            <p class="text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna </p>
+            <i class=" fa-solid fa-arrow-right bg-slate-200 rounded-full p-3 text-gray-500 cursor-pointer ml-24 md:ml-36"></i>
+          </div>
+        </div>
+      </div>
+      <div class="flexw-wrap text-center md:flex items-center gap-6 justify-between p-16 w-4/6 mx-auto bg-slate-200">
+        <div>
+          <i class="fa-regular fa-envelope"></i>
+          <span>mmr315@gmail.com</span>
+        </div>
+        <p>© Copyright 2021 | mmrz315</p>
+        <div>
+          <i class="fa-brands fa-instagram m-1"></i>
+          <i class="fa-brands fa-telegram m-1"></i>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </body>
+</html>
